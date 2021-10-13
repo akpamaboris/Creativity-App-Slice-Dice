@@ -91,7 +91,6 @@ const WhyThisWay = () => {
 };
 function App() {
   const [challenge, setChallenge] = useState("");
-  const [attributes, listAttributes] = useState({});
   return (
     <div className="App">
       <TitleApp />
